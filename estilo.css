@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.center {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 0 3%;
+}
+
+html,body {
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+header {
+    padding: 2px 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+    width: 50%;
+}
+
+.logo img {
+    height: 100px;
+}
+
+.menu {
+    padding-top: 30px;
+    width: 50%;
+    text-align: right;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+    transition: 0.5s;
+}
+
+.menu a:hover {
+    color: #017143;
+}
+
+section .sobre {
+    height: calc(100% - 200px);
+    position: relative;
+}
+
+.extras {
+    position: absolute;
+    bottom: -320px;
+    right: -350px;
+    width: 850px;
+    height: 780px;
+    border-radius: 50%;
+    background: #017143;
+}
+
+.extras img {
+    position: absolute;
+    right: 580px;
+    height: 350px;
+}
+
+.social-media {
+    position: absolute;
+    right: 330px;
+    top: 170px;
+}
+
+.social-media i{
+    display: block;
+    width: 40px;
+    margin: 7px 0;
+}
+
+.texto-sobre {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 80px;
+}
+
+.texto-sobre h1 {
+    font-size: 40px;
+}
+
+.texto-sobre p {
+    margin: 20px 0;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    max-width: 600px;
+}
+
+.texto-sobre a {
+    text-decoration: none;
+    border: 0;
+    background: #017143;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100px;
+    height: 60px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.texto-sobre a:hover {
+    background: #029457;
+}
+
+.imagens {
+    position: absolute;
+    top: 500px;
+    left: 450px;
+}
+
+.imagens img {
+    width: 100px;    
+}
